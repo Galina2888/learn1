@@ -1,0 +1,70 @@
+.section1 {
+    background: #9acd32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0 40px 0;
+}
+.section1 .section1-button {
+    background: #337ab7;
+    color: white;
+    font-size: 0.6em;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.section1 h1, .section1 h3 {
+    margin: 20px 0;
+}
+.section1 h3 {
+    font-weight: normal;
+}
+.section1-title {
+    font-size: 2em;
+    color: #adff2f;
+}
+.section1-subtitle {
+    color: #adff2f;
+}
+.section2 {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    flex-direction: column;
+}
+.section2-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.section2-subtitle {
+    font-size: .8em;
+    color: #8d8d8d;
+}
+.about-short {
+    text-align: center;
+    font-size: .6em;
+    margin-bottom: 20px;
+}
+.articles-container {
+    display: flex;
+    justify-content: space-between;
+}
+.article {
+    font-size: .6em;
+    color: #8d8d8d;
+    text-align: center;
+    width: 32%;
+}
+.article img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.article-title {
+    font-size: 1.5em;
+    color: #337ab7;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

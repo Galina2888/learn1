@@ -1,0 +1,11 @@
+/* Colors */
+.nav-background-color {
+    background-color: #212121;
+}
+.nav-text {
+    font-size: 0.6em;
+    font-weight: bold;
+}
+.text-gray {
+    color: #8d8d8d;
+}

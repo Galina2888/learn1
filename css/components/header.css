@@ -1,0 +1,38 @@
+.logo {
+
+}
+.logo-link {
+    text-decoration: none;
+    float: left;
+    margin-right: 30px;
+}
+.logo-link img {
+    width: 80px;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+.nav-item {
+    margin-right: 20px;
+    cursor: pointer;
+}
+.nav-dropdown-closed:hover {
+    display: none;
+}
+.nav-dropdown-closed {
+    display: inline-block;
+}
+.nav-dropdown {
+    display: none;
+}
+.nav-dropdown:hover {
+    display: block;
+}
+.nav-dropdown-list {
+    padding: 5px;
+    float: left;
+}
+.nav-dropdown-list-item {
+    list-style-type: none;
+}
